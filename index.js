@@ -2,7 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser'); // middleware
 const nodemailer = require('nodemailer');
-const { text } = require('body-parser');
+const bodyParser = require('body-parser');
 require('dotenv').config();
 
 const transport = nodemailer.createTransport({
